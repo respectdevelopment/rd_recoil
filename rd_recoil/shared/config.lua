@@ -7,7 +7,7 @@ rd.HideCrosshair = true -- Hide crosshair
 
 rd.RespectRecoil = {
 
-    Debug = true, -- Call debug message in console.
+    Debug = false, -- Call debug message in console.
     StartMessageInConsole = true, -- Call start message in console
 
 } 
