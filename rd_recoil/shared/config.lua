@@ -1,9 +1,9 @@
 rd = {}
 
 rd.DisableHeadshot = false -- Disable headshot damagage for PLAYERS
-rd.DisableRpunch = true -- Disable imaing punch (r punch)
-rd.SetFlashLightKeepOnWhileMoving = true -- Realistic flashlight when you are mooving
-rd.HideCrosshair = true -- Hide crosshair
+rd.DisableRpunch = false -- Disable imaing punch (r punch)
+rd.SetFlashLightKeepOnWhileMoving = false -- Realistic flashlight when you are mooving
+rd.HideCrosshair = false -- Hide crosshair
 
 rd.RespectRecoil = {
 
