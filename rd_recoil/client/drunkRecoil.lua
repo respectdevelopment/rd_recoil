@@ -49,14 +49,14 @@ if rd.DrunkRecoil.NormalSettings.enabled then
 
             if IsPedInAnyVehicle(ped, false) then
                 ShakeGameplayCam("DRUNK_SHAKE", rd.DrunkRecoil.VehicleSettings.shake)
-                if rd.RespectRecoil.Debug then 
+                if rd.Debug then 
                     local shake = rd.DrunkRecoil.VehicleSettings.shake
                     print("DEBUG: Is entity in the vehicle: Yes")
                     print("DEBUG: Drunk recoil has started with shake " ..shake.. "")
                 end
             else 
                 ShakeGameplayCam("DRUNK_SHAKE", rd.DrunkRecoil.NormalSettings.shake)
-                if rd.RespectRecoil.Debug then 
+                if rd.Debug then 
                     local shake = rd.DrunkRecoil.NormalSettings.shake
                     print("DEBUG: Is entity in the vehicle: No")
                     print("DEBUG: Drunk recoil has started with shake " ..shake.. "")

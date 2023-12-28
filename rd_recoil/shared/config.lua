@@ -4,13 +4,7 @@ rd.DisableHeadshot = false -- Disable headshot damagage for PLAYERS
 rd.DisableRpunch = false -- Disable imaing punch (r punch)
 rd.SetFlashLightKeepOnWhileMoving = false -- Realistic flashlight when you are mooving
 rd.HideCrosshair = false -- Hide crosshair
-
-rd.RespectRecoil = {
-
-    Debug = false, -- Call debug message in console.
-    StartMessageInConsole = true, -- Call start message in console
-
-} 
+rd.Debug = false, -- Call debug message in console.
 
 rd.DrunkRecoil = {
 

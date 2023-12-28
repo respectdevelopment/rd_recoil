@@ -30,13 +30,3 @@ if rd.SetFlashLightKeepOnWhileMoving then
     SetFlashLightKeepOnWhileMoving(true)
 end
 
-
-
-if rd.RespectRecoil.StartMessageInConsole then
-    Citizen.Wait(7)
-    AddEventHandler('onResourceStart', function()
-        print('---------------------------------')
-        print('Respect Recoil Has Neen Started.')
-        print('---------------------------------')
-    end)
-end
