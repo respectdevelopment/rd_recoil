@@ -7,6 +7,8 @@ version '1.0.1'
 
 lua54 'yes'
 
+lua54 'yes'
+
 shared_scripts {
     'shared/config.lua'
 }
