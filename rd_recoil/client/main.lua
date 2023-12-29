@@ -1,7 +1,8 @@
 if rd.DisableHeadshot then
     Citizen.CreateThread(function()
-        Citizen.Wait(2500)
-        SetPedSuffersCriticalHits(globalPed, false)
+        Citizen.Wait(7)
+        local Player = PlayerPedId()
+        SetPedSuffersCriticalHits(Player, false)
     end)
 end
 
