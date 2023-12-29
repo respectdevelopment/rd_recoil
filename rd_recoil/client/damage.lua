@@ -1,7 +1,5 @@
 if rd.CustomWeaponDamage.enabled then
-
     Citizen.CreateThread(function()
-
         while true do
             Citizen.Wait(7)
             
@@ -40,7 +38,6 @@ if rd.CustomWeaponDamage.enabled then
             N_0x4757f00bc6323cfe(joaat("WEAPON_DBSHOTGUN"), rd.CustomWeaponDamage.Damage.DbShotgun)
             N_0x4757f00bc6323cfe(joaat("WEAPON_PUMPSHOTGUN_MK2"), rd.CustomWeaponDamage.Damage.PumpShotgunMK2 )
             N_0x4757f00bc6323cfe(joaat("WEAPON_MILITARYRIFLE"), rd.CustomWeaponDamage.Damage.MilitaryRIFLE)
-
         end
     end)
 end
