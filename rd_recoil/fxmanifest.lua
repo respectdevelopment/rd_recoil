@@ -17,6 +17,10 @@ client_scripts {
     'client/drunkRecoil.lua'
 }
 
+server_scripts {
+    'server/updater.lua'
+}
+
 
 
 
