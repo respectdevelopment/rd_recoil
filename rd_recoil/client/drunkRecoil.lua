@@ -1,4 +1,4 @@
-if rd.DrunkRecoil.enabled then
+if rd.DrunkRecoil.Enabled then
 
     Citizen.CreateThread(function()
         while true do
