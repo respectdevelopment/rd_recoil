@@ -3,23 +3,22 @@ rd = {}
 rd.DisableHeadshot = false -- Disable headshot damagage for PLAYERS
 rd.DisableRpunch = false -- Disable imaing punch (r punch)
 rd.SetFlashLightKeepOnWhileMoving = false -- Realistic flashlight when you are mooving
-rd.HideCrosshair = false -- Hide crosshair
+rd.HideCrosshair = true -- Hide crosshair
 rd.Debug = false -- Call debug message in console.
-rd.updates = true
 
 rd.DrunkRecoil = {
 
+    Enabled = true,
+
     NormalSettings = { -- When is player doesnt in the vehicle
-        enabled = true,
         shake = 0.6,
     },
 
     VehicleSettings = { -- When is player in the vehicle
-        enabled = true,
         shake = 0.4,
     },
 
-    ignoredWeapons = { -- Ignored shaking weapon
+    ignoredWeapons = { -- Ignored Weapons
         [`weapon_sniperrifle`] = true,
         [`weapon_heavysniper`] = true,
         [`weapon_heavysniper_mk2`] = true,
@@ -67,6 +66,5 @@ rd.CustomWeaponDamage = {
         DbShotgun = 1.5,
         PumpShotgunMK2 = 1.0,
         MilitaryRIFLE = 0.45, 
-
     }
 }

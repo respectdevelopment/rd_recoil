@@ -3,7 +3,6 @@ if rd.DisableHeadshot then
         while true do
             Citizen.Wait(7)
             local Player = PlayerPedId()
-
             SetPedSuffersCriticalHits(Player, false)
         end
     end)
@@ -11,6 +10,7 @@ end
 if rd.DisableRpunch then 
     Citizen.CreateThread(function()
         Citizen.Wait(7)
+
         local Player = PlayerPedId()
         if IsPedArmed(Player, 4) then
 
@@ -22,7 +22,7 @@ if rd.DisableRpunch then
     end)
 end
 if rd.HideCrosshair then 
-    Citizen.CreateThread( function()
+    Citizen.CreateThread(function()
         while true do
 
             Citizen.Wait(7)
@@ -32,14 +32,8 @@ if rd.HideCrosshair then
     end)
 end
 if rd.SetFlashLightKeepOnWhileMoving then 
-    Citizen.CreateThread( function()
-        while true do
-
-            Citizen.Wait(0)
-            SetFlashLightKeepOnWhileMoving(true)
-
-        end
-    end)
+    Wait(7)
+    SetFlashLightKeepOnWhileMoving(true)
 end
 
 
