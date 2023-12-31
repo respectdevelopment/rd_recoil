@@ -3,7 +3,7 @@ if rd.DrunkRecoil.NormalSettings.enabled then
     Citizen.CreateThread(function()
         while true do
 
-            Citizen.Wait(7)
+            Citizen.Wait(100)
             local sleep  = true
         
             if IsPedArmed(PlayerPedId(), 6) then
@@ -12,7 +12,7 @@ if rd.DrunkRecoil.NormalSettings.enabled then
             end
 
             if sleep then
-                Wait(1000)
+                Wait(5000)
             end
         end
     end)
@@ -27,12 +27,15 @@ if rd.DrunkRecoil.NormalSettings.enabled then
 
         if not rd.DrunkRecoil.ignoredWeapons[weapon] then
             if IsPlayerFreeAiming(playerId) then
+                Wait(100)
                 enableDrunkCameraNORMAL()
            elseif IsPedShooting(playerPed) then
+                Wait(100)
                 enableDrunkCameraNORMAL()
             else
                 if toggleDrunk then
                     toggleDrunk = false
+                    Wait(100)
                     ShakeGameplayCam("DRUNK_SHAKE", 0.0)
                 end
             end
@@ -48,6 +51,7 @@ if rd.DrunkRecoil.NormalSettings.enabled then
             local ped = PlayerPedId()
 
             if IsPedInAnyVehicle(ped, false) then
+                Wait(100)
                 ShakeGameplayCam("DRUNK_SHAKE", rd.DrunkRecoil.VehicleSettings.shake)
                 if rd.Debug then 
                     local shake = rd.DrunkRecoil.VehicleSettings.shake
@@ -55,6 +59,7 @@ if rd.DrunkRecoil.NormalSettings.enabled then
                     print("DEBUG: Drunk recoil has started with shake " ..shake.. "")
                 end
             else 
+                Wait(100)
                 ShakeGameplayCam("DRUNK_SHAKE", rd.DrunkRecoil.NormalSettings.shake)
                 if rd.Debug then 
                     local shake = rd.DrunkRecoil.NormalSettings.shake
