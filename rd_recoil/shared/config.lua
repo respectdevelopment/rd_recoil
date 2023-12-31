@@ -5,6 +5,7 @@ rd.DisableRpunch = false -- Disable imaing punch (r punch)
 rd.SetFlashLightKeepOnWhileMoving = false -- Realistic flashlight when you are mooving
 rd.HideCrosshair = false -- Hide crosshair
 rd.Debug = false -- Call debug message in console.
+rd.updates = true
 
 rd.DrunkRecoil = {
 
