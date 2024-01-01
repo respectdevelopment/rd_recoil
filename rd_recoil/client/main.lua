@@ -7,7 +7,7 @@ if rd.DisableHeadshot then
         end
     end)
 end
-if rd.DisableRpunch then 
+if rd.RemovePistolWhipping then 
     Citizen.CreateThread(function()
         Citizen.Wait(7)
 

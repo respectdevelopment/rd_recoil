@@ -1,7 +1,7 @@
 rd = {}
 
 rd.DisableHeadshot = false -- Disable headshot damagage for PLAYERS
-rd.DisableRpunch = false -- Disable imaing punch (r punch)
+rd.RemovePistolWhipping = false -- Disable imaing punch (r punch)
 rd.SetFlashLightKeepOnWhileMoving = false -- Realistic flashlight when you are mooving
 rd.HideCrosshair = true -- Hide crosshair
 rd.Debug = false -- Call debug message in console.
