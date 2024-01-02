@@ -15,7 +15,7 @@ rd.DrunkRecoil = {
     },
 
     VehicleSettings = { -- When is player in the vehicle
-        shake = 0.4,
+        shake = 0.5,
     },
 
     ignoredWeapons = { -- Ignored Weapons
