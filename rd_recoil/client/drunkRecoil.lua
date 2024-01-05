@@ -27,7 +27,7 @@ if rd.DrunkRecoil.Enabled then
 
         local _, weapon = GetCurrentPedWeapon(playerPed)
 
-        if not rd.DrunkRecoil.ignoredWeapons[weapon] then
+        if not rd.DrunkRecoil.IgnoredWeapons[weapon] then
             if IsPlayerFreeAiming(playerId) then
                 Wait(150)
                 enableDrunkCameraNORMAL()
@@ -43,8 +43,7 @@ if rd.DrunkRecoil.Enabled then
             end
         end
     end
-
-
+    
     function enableDrunkCameraNORMAL()
         if not toggleDrunk then
             toggleDrunk = true

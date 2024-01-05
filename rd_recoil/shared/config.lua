@@ -10,7 +10,7 @@ rd.DrunkRecoil = {
 
     Enabled = true,
 
-    NormalSettings = { -- When is player doesnt in the vehicle
+    NormalSettings = { -- When is player doesn`t in the vehicle
         shake = 0.6,
     },
 
@@ -18,7 +18,7 @@ rd.DrunkRecoil = {
         shake = 0.45,
     },
 
-    ignoredWeapons = { -- Ignored Weapons
+    IgnoredWeapons = { -- Ignored Weapons
         [`weapon_sniperrifle`] = true,
         [`weapon_heavysniper`] = true,
         [`weapon_heavysniper_mk2`] = true,
@@ -30,7 +30,6 @@ rd.DrunkRecoil = {
 rd.CustomWeaponDamage = {
     enabled = true,
     Damage = {  -- Add more into client/damage.lua
-
         Pistol = 0.5,
         PistolMK2 = 0.6,
         CombatPistol = 0.7,
