@@ -39,7 +39,7 @@ if Config.DisableRoll then
     Citizen.CreateThread(function()
         while true do
             local Player = PlayerId()
-            local PlayerPed = GetPlayerPed(-1)
+            local PlayerPed = PlayerPedId()
             if(not IsPedInAnyVehicle(globalPed,false))then
                 Citizen.Wait(4)
                 if IsPlayerFreeAiming(Player) then
