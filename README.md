@@ -14,7 +14,7 @@
 
 ###
 
-<p align="center">Drunk Recoil (Turn of/on in vehicle - editable values in vehicle - ignored weapons)<br>Edit Gun Damage<br>Turn Off Head Damage<br>Hide crosshair<br>Set FlashLight Keep On While Moving<br>Disable aim punching</p>
+<p align="center">Drunk Recoil (Turn of/on in vehicle - editable values in vehicle - ignored weapons)<br>Edit Gun Damage<br>Turn Off Head Damage<br>Hide crosshair<br>Set FlashLight Keep On While Moving<br>Disable aim punching<br> Remove Pistol Whipping</p>
 
 ###
 
