@@ -4,7 +4,7 @@
 
 ###
 
-<p align="center">Best and Simple recoil script for your FiveM server!</p>
+<p align="center">Simple recoil script for your FiveM server!</p>
 
 ###
 
