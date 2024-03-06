@@ -105,9 +105,7 @@ Citizen.CreateThread(function()
                 end
 
             end
-
-            print(CurrentWeapon)
-
+                
             if CurrentWeapon ~= nil then
 
                 local Player = PlayerId()
