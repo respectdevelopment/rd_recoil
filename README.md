@@ -2,6 +2,9 @@
 
 <h1 align="center">Recoil</h1>
 
+<p align="center">Standlone recoil script for your server!</p>
+
+
 ###
 
 <br clear="both">
