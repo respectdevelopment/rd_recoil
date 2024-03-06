@@ -5,34 +5,26 @@ game 'gta5'
 -- {{Resource Information}} --
 author 'Respect Development'
 description 'Recoil Script'
-version '1.1'
+version '2.0'
 
 -- {{Manifest}} --
 lua54 'yes'
 
 shared_scripts {
-    'shared/config.lua'
+
+    'Config.lua'
+
 }
 
 client_scripts {
-    'client/main.lua',
-    'client/damage.lua',
-    'client/drunkRecoil.lua'
+
+    'Client/Client.lua',
+
 }
 
 server_scripts {
-    'server/updater.lua',
+
+    'Server/Server.lua',
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
