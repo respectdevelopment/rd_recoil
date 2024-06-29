@@ -17,6 +17,11 @@
 
 ###
 
+<p align="center">Disclaimer<br>Drunk recoil script is not ours, we only edited It for better optimalization and added new features. Original author is unkown, so if this is your code, please, contant us on the discord, thank you!</p>
+
+
+###
+
 <br clear="both">
 
 <h1 align="center">Support</h1>
